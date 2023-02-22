@@ -1,4 +1,4 @@
-package com.alarm.joptionpane;
+package src.com.alarm.joptionpane;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -19,11 +19,11 @@ public class JOptionPaneDemo1 extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 //消息对话框
                 JOptionPane.showMessageDialog(button1,"提示消息");
-                JOptionPane.showMessageDialog(button1,"提示消息","标题",JOptionPane.INFORMATION_MESSAGE);
-                JOptionPane.showMessageDialog(button1,"提示消息","标题",JOptionPane.ERROR_MESSAGE);
-                JOptionPane.showMessageDialog(button1,"提示消息","标题",JOptionPane.WARNING_MESSAGE);
-                JOptionPane.showMessageDialog(button1,"提示消息","标题",JOptionPane.QUESTION_MESSAGE);
-                JOptionPane.showMessageDialog(button1,"提示消息","标题",JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(button1,"提示消息","标题",JOptionPane.INFORMATION_MESSAGE);  //错误
+                JOptionPane.showMessageDialog(button1,"提示消息","标题",JOptionPane.ERROR_MESSAGE);  //提示
+                JOptionPane.showMessageDialog(button1,"提示消息","标题",JOptionPane.WARNING_MESSAGE);  //警告
+                JOptionPane.showMessageDialog(button1,"提示消息","标题",JOptionPane.QUESTION_MESSAGE);  //询问
+                JOptionPane.showMessageDialog(button1,"提示消息","标题",JOptionPane.PLAIN_MESSAGE);  //无图标消息
             }
         });
     }

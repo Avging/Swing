@@ -1,4 +1,4 @@
-package com.alarm.jframe;
+package src.com.alarm.jframe;
 
 
 

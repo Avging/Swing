@@ -1,4 +1,4 @@
-package com.alarm.test;
+package src.com.alarm.test;
 
 import javax.swing.*;
 

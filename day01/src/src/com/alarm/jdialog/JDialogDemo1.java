@@ -1,4 +1,4 @@
-package com.alarm.jdialog;
+package src.com.alarm.jdialog;
 
 import javax.swing.*;
 

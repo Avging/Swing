@@ -1,4 +1,4 @@
-package com.alarm.swing;
+package src.com.alarm.swing;
 
 import javax.swing.*;
 import java.awt.*;
